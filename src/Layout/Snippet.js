@@ -6,10 +6,9 @@ import jsx from 'react-syntax-highlighter/dist/esm/languages/prism/jsx';
 import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 SyntaxHighlighter.registerLanguage('jsx', jsx);
 
-const Snippet = ({ name, component }) => 
+const Snippet = ({ component: Component, code, name }) => 
 {
-  const [showCode, setShowCode] = useState(true);
-  const { Component, code } = component;
+  const [showCode, setShowCode] = useState(false);
 
   return (
     <div>

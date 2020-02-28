@@ -2,16 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Snippet } from './Snippet';
 
-const SnippetGroup = ({ name, items }) => 
+const SnippetGroup = ({ name, snippets }) => 
 {
   return (
     <div className='ui vertical segment'>
-      <h1>      {name}
-      </h1>
-      {Object.keys(items).map(key => 
-      {
-        return <Snippet key={key} name={key} component={items[key]} />;
-      })}
+      <h1>{name}</h1>
+      {snippets.map((snippet, index) => <Snippet key={index} {...snippet} />)}
     </div>
   );
 };

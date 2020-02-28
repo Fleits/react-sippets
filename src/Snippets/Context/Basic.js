@@ -23,7 +23,7 @@ const Child = ({ text }) =>
   </Context.Consumer>);
 };
 
-const Code =`import React, { useState } from 'react';
+const code =`import React, { useState } from 'react';
 
 const Context = React.createContext(0);
 
@@ -49,4 +49,7 @@ const Child = ({ text }) =>
 };
 `;
 
-export { Basic as Component, Code as code };
+const name = 'Functional Consumer';
+const meta = { component: Basic, code, name };
+
+export default meta;

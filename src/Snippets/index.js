@@ -1,6 +1,7 @@
-import * as Hooks from './Hooks';
-import * as Context from './Context';
+import Hooks from './Hooks';
+import Context from './Context';
 
 export const Snippets = [
-  Hooks, Context
+  { name: 'Hooks', snippets: Hooks }, 
+  { name: 'Context', snippets: Context }
 ];

@@ -1,5 +1,5 @@
-import * as Basic from './Basic';
+import Basic from './Basic';
 
-export const Context = {
+export default [
   Basic
-};
+];

@@ -7,10 +7,7 @@ function App()
 {  
   return (
     <div className='ui text container'>
-      {Snippets.flatMap(x => 
-      {
-        return Object.keys(x).flatMap(key => <SnippetGroup name={key} items={x[key]} />);      
-      })}
+      {Snippets.flatMap((group, index) => <SnippetGroup key={index} {...group} />)}
     </div>
   );
 }

@@ -15,7 +15,7 @@ const UseState = () =>
     </div>
   );
 };
-const UseStateCode = `import React, { useState } from 'react';
+const code = `import React, { useState } from 'react';
 
 const UseState = () => 
 {
@@ -31,4 +31,7 @@ const UseState = () =>
   );
 };`;
 
-export { UseState, UseStateCode };
+const name = 'State';
+const meta = { component: UseState, code, name };
+
+export default meta;
