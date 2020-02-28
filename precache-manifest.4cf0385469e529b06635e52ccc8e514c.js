@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0bf58e61d619655984da3240fd8bfb1",
+    "revision": "6056419579529bcaef155114de691f95",
     "url": "/react-sippets/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-sippets/static/js/2.e7a4f84f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca7f970874e6d27b727d",
-    "url": "/react-sippets/static/js/main.df65505f.chunk.js"
+    "revision": "f2449c9c6925561b4b75",
+    "url": "/react-sippets/static/js/main.20afcb46.chunk.js"
   },
   {
     "revision": "a038b7b2cf65f241cac8",
