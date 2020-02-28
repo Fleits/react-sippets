@@ -13,7 +13,8 @@ const SnippetGroup = ({ name, snippets }) =>
 };
 
 SnippetGroup.propTypes = {
-
+  name: PropTypes.string,
+  snippets: PropTypes.array
 };
 
 export { SnippetGroup };

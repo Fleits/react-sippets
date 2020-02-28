@@ -32,7 +32,9 @@ const Snippet = ({ component: Component, code, name }) =>
 };
 
 Snippet.propTypes = {
-
+  component: PropTypes.func,
+  code: PropTypes.string, 
+  name: PropTypes.string
 };
 
 export { Snippet };
