@@ -11,8 +11,7 @@ const Snippet = ({ component: Component, code, name }) =>
   const [showCode, setShowCode] = useState(false);
 
   return (
-    <div>
-      
+    <div style={{marginTop: 20, marginBottom: 20}}>      
       <h3 className='ui header'>
         {name}
         <div style={{ float:'right', cursor: 'pointer' }}>
